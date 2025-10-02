@@ -1,6 +1,73 @@
 body{
     background-color: #35424a;
+   
+}
+
+#header{
+color:#e8491d;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+border-bottom: solid;
+border-width:3px;
+}
+
+#header p{
+color:white;
+}
+
+.container{
     border: solid;
-    border-color:#e8491d;
-    border-width:3px;
+    color: black;
+}
+
+.nav a{
+    
+    text-decoration:none;
+}
+
+.active a{
+    color:#e8491d
+}
+
+.branding{
+    border: solid;
+    color: black;
+}
+
+#showcase{
+    background-image:url(./img/showcase.jpg);
+    border: solid;
+    color: black;
+    height:100px;
+}
+
+#newsletter{
+    display:flex;
+    justify-content:space-around;
+    height: 50px;
+    border: solid;
+    color: black;
+}
+
+button{
+    background-color: #e8491d;
+  border: none;
+  color: white;
+}
+
+#boxes{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border: solid;
+    color: black;
+    text-align:center
+}
+
+#footer{
+    background-color:#e8491d;
+    display:flex;
+    justify-content:space-around;
+    color:white;
 }
