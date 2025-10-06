@@ -8,8 +8,6 @@ color:#e8491d;
 display:flex;
 flex-direction:row;
 justify-content:space-around;
-border-bottom: solid;
-border-width:3px;
 }
 
 #header p{
@@ -34,6 +32,7 @@ color:white;
 .branding{
     border: solid;
     color: black;
+    border-bottom: solid #e8491d 3px;
 }
 
 #showcase{
