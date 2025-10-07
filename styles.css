@@ -1,13 +1,9 @@
-body{
-    background-color: #35424a;
-   
-}
-
 #header{
 color:#e8491d;
 display:flex;
 flex-direction:row;
 justify-content:space-around;
+background-color: #35424a;
 }
 
 #header p{
@@ -15,8 +11,7 @@ color:white;
 }
 
 .container{
-    border: solid;
-    color: black;
+    
 }
 
 .nav a{
@@ -30,15 +25,13 @@ color:white;
 }
 
 .branding{
-    border: solid;
-    color: black;
+    display: flex;
+    justify-content: row;
     border-bottom: solid #e8491d 3px;
 }
 
 #showcase{
     background-image:url(./img/showcase.jpg);
-    border: solid;
-    color: black;
     height:100px;
 }
 
@@ -46,23 +39,21 @@ color:white;
     display:flex;
     justify-content:space-around;
     height: 50px;
-    border: solid;
-    color: black;
+    color: white;
+    background-color: #35424a;
 }
 
 button{
     background-color: #e8491d;
   border: none;
-  color: white;
 }
 
 #boxes{
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
-    border: solid;
-    color: black;
-    text-align:center
+    text-align:center;
+    background-color: aliceblue;
 }
 
 #footer{
