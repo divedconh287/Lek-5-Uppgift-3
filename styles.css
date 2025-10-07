@@ -1,19 +1,21 @@
 #header{
-color:#e8491d;
 display:flex;
-flex-direction:row;
-justify-content:space-around;
+justify-content: space-evenly;
+align-items: center;
+color:#e8491d;
 background-color: #35424a;
 }
 
 #header p{
 color:white;
 }
+nav{
+    display:flex;
+    justify-content: space-evenly;
+}
 
 
-
-.nav a{
-    display: flex;
+nav a{
     color:white;
     text-decoration:none;
 }
@@ -23,8 +25,10 @@ color:white;
 }
 
 .branding{
-    display: flex;
-    justify-content: row;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #35424a;
     border-bottom: solid #e8491d 3px;
 }
 
@@ -43,6 +47,7 @@ color:white;
 #newsletter{
     display:flex;
     justify-content:space-around;
+    align-items: center;
     height: 50px;
     color: white;
     background-color: #35424a;
