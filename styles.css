@@ -10,9 +10,7 @@ background-color: #35424a;
 color:white;
 }
 
-.container{
-    
-}
+
 
 .nav a{
     display: flex;
@@ -30,9 +28,16 @@ color:white;
     border-bottom: solid #e8491d 3px;
 }
 
+
+
 #showcase{
     background-image:url(./img/showcase.jpg);
-    height:100px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding:60px;
 }
 
 #newsletter{
