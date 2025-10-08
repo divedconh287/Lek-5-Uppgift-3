@@ -1,5 +1,7 @@
 #header{
 display:flex;
+flex-direction: row;
+justify-content: space-around;
 align-items: center;
 color:#e8491d;
 background-color: #35424a;
@@ -11,26 +13,26 @@ color:white;
 
 nav {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
+    border:solid black;
 }
 nav a{
     color:white;
     text-decoration:none;
 }
 
-.active a{
+#active{
     color:#e8491d
 }
 
 .branding{
     display:flex;
+    flex-direction: row;
     justify-content: space-evenly;
     background-color: #35424a;
     border-bottom: solid #e8491d 3px;
 }
-
-
 
 #showcase{
     background-image:url(./img/showcase.jpg);
