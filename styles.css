@@ -1,26 +1,29 @@
+/* Aaron Granath TE24C */
+
 #header{
 display:flex;
-flex-direction: row;
-justify-content: space-around;
 align-items: center;
 color:#e8491d;
 background-color: #35424a;
+font-family: 'Franklin Gothic Medium';
 }
 
 #header p{
+margin-left: 60px;
 color:white;
 }
 
-nav {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    border:solid black;
-}
 nav a{
-    color:white;
-    text-decoration:none;
+    align-items: center;
+    margin: 50px;
+    font-family:'Trebuchet MS';
+}/* flex ville inte funka, se tidigare commits*/
+
+a{
+    color: white;
+    text-decoration: none;
 }
+
 
 #active{
     color:#e8491d
@@ -29,19 +32,26 @@ nav a{
 .branding{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    align-items: baseline;
+    justify-content: space-around;
     background-color: #35424a;
     border-bottom: solid #e8491d 3px;
 }
 
+#showcase h1{
+    font-family: 'Franklin Gothic Medium';
+}
+
 #showcase{
     background-image:url(./img/showcase.jpg);
+    background-size: cover;
     color:white;
     display:flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     padding:60px;
+    font-family:'Trebuchet MS';
 }
 
 #newsletter{
@@ -51,6 +61,7 @@ nav a{
     height: 50px;
     color: white;
     background-color: #35424a;
+    font-family: 'Franklin Gothic Medium';
 }
 
 button{
@@ -59,11 +70,18 @@ button{
 }
 
 #boxes{
+    padding-top:25px;
+    padding-bottom:25px;
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
     text-align:center;
     background-color: aliceblue;
+    font-family:'Trebuchet MS';
+}
+
+#boxes h2{
+    font-family: 'Franklin Gothic Medium';
 }
 
 #footer{
