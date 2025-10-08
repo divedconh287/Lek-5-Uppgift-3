@@ -11,10 +11,9 @@ color:white;
 
 nav {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items:center;
 }
-
 nav a{
     color:white;
     text-decoration:none;
